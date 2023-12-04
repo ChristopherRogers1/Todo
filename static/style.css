@@ -1,6 +1,6 @@
 body {
     background: blue;
-    color: #333;
+    color: white;
     font-family: Lato, sans-serif;
     background: #B2FEFA;
     /* fallback for old browsers */
@@ -12,7 +12,7 @@ body {
 
 .dark-mode {
     background: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.813);
     color: white;
   }
 
@@ -78,7 +78,7 @@ label[for='new-task'] {
     color: white;
     font-weight: 700;
     font-size: 15px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid white;
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
@@ -168,6 +168,12 @@ ul li.editMode label {
 }
 
 #clear {
+    font-size: 15px;
+    float: right;
+    text-align: center;
+}
+
+#darkmode {
     font-size: 15px;
     float: right;
     text-align: center;
